@@ -26,7 +26,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PERMISSIVE_HOLD
 
 #define MOUSEKEY_INTERVAL 16
-#define MOUSEKEY_MAX_SPEED 5
+#define MOUSEKEY_MAX_SPEED 4
 
 // If you need more program area, try select and reduce rgblight modes to use.
 

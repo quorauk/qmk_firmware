@@ -21,6 +21,7 @@ BOOTLOADER = atmel-dfu
 MOUSEKEY_ENABLE = yes
 LED_BACK_ENABLE = yes
 OLED_ENABLE = yes
+# TAP_DANCE_ENABLE = yes
 # convert Helix-specific options (that represent combinations of standard options)
 #   into QMK standard options.
 include $(strip $(KEYBOARD_LOCAL_FEATURES_MK))
