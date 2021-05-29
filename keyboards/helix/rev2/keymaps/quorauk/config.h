@@ -24,8 +24,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #undef TAPPING_TERM
 #define TAPPING_TERM 300
 #define PERMISSIVE_HOLD
-#undef MASTER_LEFT
-#define MASTER_RIGHT
+// #undef MASTER_LEFT
+// #define MASTER_RIGHT
 
 #define MOUSEKEY_INTERVAL 16
 #define MOUSEKEY_MAX_SPEED 4

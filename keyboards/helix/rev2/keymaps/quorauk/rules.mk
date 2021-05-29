@@ -5,7 +5,7 @@
 #   See TOP/keyboards/helix/rules.mk for a list of options that can be set.
 #   See TOP/docs/config_options.md for more information.
 #
-LINK_TIME_OPTIMIZATION_ENABLE = no  # if firmware size over limit, try this option
+LTO_ENABLE = yes# if firmware size over limit, try this option
 
 # Helix Spacific Build Options
 # you can uncomment and edit follows 7 Variables
@@ -17,7 +17,7 @@ LINK_TIME_OPTIMIZATION_ENABLE = no  # if firmware size over limit, try this opti
 # LED_UNDERGLOW_ENABLE = no   # LED underglow (Enable WS2812 RGB underlight.)
 # LED_ANIMATIONS = yes        # LED animations
 # IOS_DEVICE_ENABLE = no      # connect to IOS device (iPad,iPhone)
-BOOTLOADER = atmel-dfu
+BOOTLOADER = caterina
 MOUSEKEY_ENABLE = yes
 LED_BACK_ENABLE = yes
 OLED_ENABLE = yes
